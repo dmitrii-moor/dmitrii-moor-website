@@ -1,0 +1,173 @@
+export default function ResearchWebsite() {
+  const publications = [
+    {
+      title: "Constraint-Aware Diffusion Decoding for Sequential Recommendation",
+      venue: "NeurIPS 2026 (submitted)",
+      description:
+        "Using primal-dual optimization to guide reverse diffusion processes under business constraints.",
+    },
+    {
+      title: "Mechanistic Interpretability for Sequential Recommenders",
+      venue: "Work in progress",
+      description:
+        "Exploring internal representations and attention patterns in SASRec-style models.",
+    },
+  ];
+
+  const projects = [
+    {
+      title: "Generative Recommendation Models",
+      description:
+        "Research on diffusion and autoregressive methods for recommendation and sequence generation.",
+    },
+    {
+      title: "User Churn Prediction",
+      description:
+        "Applied work on retention modeling, user lifetime value, and engagement forecasting.",
+    },
+  ];
+
+  return (
+    <div className="min-h-screen bg-white text-neutral-900 px-6 py-10 sm:px-10 lg:px-16">
+      <div className="max-w-5xl mx-auto space-y-16">
+        <header className="grid grid-cols-1 md:grid-cols-12 gap-10 items-start border-b border-neutral-200 pb-14">
+          <div className="md:col-span-4 flex justify-center md:justify-start">
+            <img
+              src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=900&auto=format&fit=crop"
+              alt="Portrait"
+              className="w-72 h-72 rounded-sm object-cover"
+            />
+          </div>
+
+          <div className="md:col-span-8 space-y-7 pt-1">
+            <div>
+              <h1 className="text-5xl sm:text-6xl font-semibold tracking-tight leading-none">
+                Dmitrii Moor
+              </h1>
+
+              <p className="mt-6 text-[20px] text-neutral-700 leading-relaxed max-w-3xl">
+                Senior Research Scientist at Spotify in London. I work on
+                recommender systems, generative modeling, diffusion models,
+                sequential decision making, and controllable sequence
+                generation.
+              </p>
+            </div>
+
+            <div className="flex flex-wrap gap-x-6 gap-y-2 text-[15px] text-neutral-500">
+              <a
+                href="https://scholar.google.com"
+                className="hover:text-black transition-colors"
+              >
+                Google Scholar
+              </a>
+              <a
+                href="https://github.com"
+                className="hover:text-black transition-colors"
+              >
+                GitHub
+              </a>
+              <a
+                href="https://linkedin.com"
+                className="hover:text-black transition-colors"
+              >
+                LinkedIn
+              </a>
+              <a
+                href="mailto:your-email@example.com"
+                className="hover:text-black transition-colors"
+              >
+                Email
+              </a>
+            </div>
+          </div>
+        </header>
+
+        <section className="grid grid-cols-1 md:grid-cols-12 gap-10 items-start">
+          <div className="md:col-span-4">
+            <h2 className="text-xl font-semibold tracking-tight">
+              Research Interests
+            </h2>
+          </div>
+
+          <div className="md:col-span-8">
+            <ul className="grid grid-cols-1 sm:grid-cols-2 gap-y-4 gap-x-8 text-neutral-700 leading-relaxed text-[17px]">
+              <li>Sequential recommendation</li>
+              <li>Generative recommendation models</li>
+              <li>Diffusion models for discrete sequences</li>
+              <li>Mechanistic interpretability</li>
+              <li>User modeling and churn prediction</li>
+              <li>Controllable generation</li>
+            </ul>
+          </div>
+        </section>
+
+        <section className="space-y-10">
+          <h2 className="text-2xl font-semibold tracking-tight">
+            Publications
+          </h2>
+
+          <div className="space-y-8">
+            {publications.map((publication, index) => (
+              <div key={index} className="space-y-2">
+                <h3 className="text-lg font-medium leading-snug">
+                  {publication.title}
+                </h3>
+
+                <p className="text-sm text-neutral-500">
+                  {publication.venue}
+                </p>
+
+                <p className="text-neutral-700 leading-relaxed">
+                  {publication.description}
+                </p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section className="space-y-10">
+          <h2 className="text-2xl font-semibold tracking-tight">
+            Selected Projects
+          </h2>
+
+          <div className="space-y-8">
+            {projects.map((project, index) => (
+              <div key={index} className="space-y-2">
+                <h3 className="text-lg font-medium">{project.title}</h3>
+                <p className="text-neutral-700 leading-relaxed">
+                  {project.description}
+                </p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section className="space-y-6">
+          <h2 className="text-2xl font-semibold tracking-tight">
+            Notes
+          </h2>
+
+          <div className="space-y-4 text-neutral-700 leading-relaxed">
+            <p>
+              Short technical essays and research notes on recommendation
+              systems, generative models, and applied machine learning.
+            </p>
+
+            <ul className="space-y-2 text-neutral-600">
+              <li>• Why generative recommenders are difficult</li>
+              <li>• Mechanistic interpretability beyond language models</li>
+              <li>• Why offline recommendation metrics often fail</li>
+            </ul>
+          </div>
+        </section>
+
+        <footer className="pt-8 border-t border-neutral-200 text-sm text-neutral-500">
+          <p>
+            © 2026 Dmitrii Moor
+          </p>
+        </footer>
+      </div>
+    </div>
+  );
+}
+
