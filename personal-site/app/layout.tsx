@@ -18,7 +18,6 @@ export const metadata: Metadata = {
   description: "Personal research website",
   icons: {
     icon: "/icon.png",
-    shortcut: "/icon.png",
     apple: "/icon.png",
   },
 };
