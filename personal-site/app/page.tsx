@@ -159,9 +159,11 @@ export default function ResearchWebsite() {
                   )}
                 </div>
 
-                <p className="text-neutral-700 leading-relaxed">
-                  {publication.description}
-                </p>
+                  {publication.description && (
+                  <p className="text-neutral-700 leading-relaxed">
+                    {publication.description}
+                  </p>
+                )}
 
                 
               </div>
