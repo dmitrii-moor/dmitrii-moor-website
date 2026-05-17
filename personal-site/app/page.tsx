@@ -3,48 +3,48 @@ export default function ResearchWebsite() {
     {
       title: "Primal-Dual Guided Decoding for Constrained Discrete Diffusion",
       venue: "ArXiv (working paper)",
-      //  description:
+      description: "",
       //  "Using primal-dual optimization to guide reverse diffusion processes under constraints.",
       link: "https://arxiv.org/pdf/2605.09749",
     },
     {
       title: "Stochastic Primal-Dual Decoding for Multiobjective Generative Recommender Systems",
       venue: "KDD 2026 (to appear)",
-      //description:
+      description: "",
      //   "Relying on constrained optimization to guide autoregressive generative recommendation systems.",
     },
     {
       title: "Learning Optimal Personalised Reservation Prices in Impression Ad Auctions with Mixture Density Networks",
       venue: "CIKM 2025",
-      //description:
+      description: "",
       //  "Designing a mixture density network to learn optimal bidder- and user-specific reservation prices in impression ad auctions.",
       link: "https://dl.acm.org/doi/abs/10.1145/3746252.3761070",
     },
     {
       title: "Optimising Budget Management via Primal-Dual Approximation with Constrained Polynomial Weights Update",
       venue: "KDD 2025",
-      //description:
+      description: "",
       //  "Bridging the gap between primal-dual optimisation and online learning in budget management problems.",
       link: "https://dl.acm.org/doi/abs/10.1145/3711896.3737071",
     },
     {
       title: "Exploiting Sequential Music Preferences via Optimisation-Based Sequencing",
       venue: "CIKM 2023",
-      //description:
+      description: "",
       //  "Building sequential ML models to improve music recommendations.",
       link: "https://dl.acm.org/doi/abs/10.1145/3583780.3615476",
     },
     {
       title: "Data markets with dynamic arrival of buyers and sellers",
       venue: "NetEcon 2019",
-      //description:
+      description: "",
       //  "Design of a market mechanism for data markets with dynamic arrival of buyers and sellers.",
       link: "https://dl.acm.org/doi/abs/10.1145/3338506.3340270",
     },
     {
       title: "Core-Selecting Payment Rules for Combinatorial Auctions with Uncertain Availability of Goods",
       venue: "IJCAI 2016",
-      //description:
+      description: "",
       //  "Design of a core-selecting combinatorial auction rule in the setting when the allocated goods may become unavailable.",
       link: "https://dl.acm.org/doi/10.5555/3060621.3060681",
     },
