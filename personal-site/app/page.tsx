@@ -124,7 +124,7 @@ export default function ResearchWebsite() {
               <li>Recommendation systems</li>
               <li>Online decision making</li>
               <li>Machine learning</li>
-              <li>User modeling</li>
+              <li>Probabilistic modeling</li>
               <li>Algorithmic game theory</li>
             </ul>
           </div>
