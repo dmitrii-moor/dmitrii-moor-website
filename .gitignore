@@ -1,0 +1,7 @@
+node_modules/
+.next/
+.vercel/
+.DS_Store
+.env*.local
+personal-site/node_modules/
+personal-site/.next/
