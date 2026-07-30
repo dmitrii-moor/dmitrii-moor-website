@@ -67,6 +67,7 @@ export default function ResearchWebsite() {
     <div className="min-h-screen bg-white text-neutral-900 px-6 py-10 sm:px-10 lg:px-16">
       <div className="max-w-5xl mx-auto space-y-16">
         <header className="grid grid-cols-1 md:grid-cols-12 gap-10 items-start border-b border-neutral-200 pb-14">
+          {/*
           <div className="md:col-span-4 flex justify-center md:justify-start">
             <img
               src="/IMG_2330.jpg"
@@ -74,6 +75,7 @@ export default function ResearchWebsite() {
               className="w-72 h-72 rounded-sm object-cover mt-2"
             />
           </div>
+          */}
 
           <div className="md:col-span-8 space-y-7 pt-1">
             <div>
