@@ -202,7 +202,14 @@ export default function ResearchWebsite() {
             </p>
 
             <ul className="space-y-2 text-neutral-600">
-            <li>
+
+              <li>
+                • <a href="https://research.atspotify.com/2026/8/balancing-multiple-objectives-in-generative-recommendations-with-adaptive-decoding" className="hover:text-black underline underline-offset-4">
+                  Balancing Multiple Objectives in Generative Recommendations with Adaptive Decoding
+                </a>
+              </li>
+
+              <li>
                 • <a href="https://research.atspotify.com/2025/11/learning-personalised-prices-in-ad-auctions-with-game-theory-and-deep" className="hover:text-black underline underline-offset-4">
                   Learning Personalised Prices in Ad Auctions with Game Theory and Deep Learning
                 </a>
