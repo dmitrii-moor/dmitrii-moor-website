@@ -9,9 +9,10 @@ export default function ResearchWebsite() {
     },
     {
       title: "Stochastic Primal-Dual Decoding for Multiobjective Generative Recommender Systems",
-      venue: "KDD 2026 (to appear)",
+      venue: "KDD 2026",
       description: "",
      //   "Relying on constrained optimization to guide autoregressive generative recommendation systems.",
+     link: "https://dl.acm.org/doi/abs/10.1145/3770855.3817806"
     },
     {
       title: "Learning Optimal Personalised Reservation Prices in Impression Ad Auctions with Mixture Density Networks",
